@@ -1,7 +1,8 @@
 <template>
   <header class="header">
     <RouterLink to="/" class="header__link">
-      <BaseIcon name="logo" class="header__logo" />
+      <!-- <BaseIcon name="logo" class="header__logo" /> -->
+      <Logo class="header__logo" />
     </RouterLink>
 
     <nav class="header__menu">
@@ -11,7 +12,8 @@
 </template>
 
 <script setup>
-import BaseIcon from "@/components/UI/BaseIcon.vue";
+// import BaseIcon from "@/components/UI/BaseIcon.vue";
+import Logo from "@/assets/icons/logo.svg";
 </script>
 
 <style lang="scss">
